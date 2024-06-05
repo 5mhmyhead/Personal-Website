@@ -51,7 +51,7 @@
         flex-wrap: wrap;
     }
     .gallery {
-        width: 650px;
+        width: 100%;
         height: 250px;
         margin: 0 auto 2rem;
     }
@@ -64,6 +64,9 @@
     }
     .contact-info-upper-container {
         margin-bottom: 30px;
+    }
+    .p-profile {
+        width: 100%;
     }
 }
 
@@ -118,7 +121,7 @@
     }
     .gallery {
         width: 100%;
-        height: 170px;
+        height: 20%;
         margin: 0 auto 2rem;
     }
     .p-profile {
@@ -132,6 +135,9 @@
     }
     .experience-details-container {
         padding-top: 20px;
+    }
+    .section__pic-container {
+        width: 52.5%;
     }
 }
 
