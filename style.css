@@ -122,12 +122,23 @@ sup {
     transition: all 0.3 ease-in-out;
 }
 
+.menu-links a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
 .menu-links li {
     list-style: none;
 }
 
 .menu-links.open {
+    margin-top: 10px;
     max-height: 300px;
+    border: 2px solid;
+    border-radius: 0.5rem;
+    border-color: rgb(163, 163, 163);
 }
 
 .hamburger-icon.open span:first-child {
